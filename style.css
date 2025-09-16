@@ -1,0 +1,43 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color:blue;
+    color:aqua;
+
+
+}
+
+h1 {
+    color: deepskyblue;
+}
+
+a{
+    color: burlywood;
+    text-decoration: none;
+
+}
+a:hover{
+    color: darkgreen;
+
+}
+ul>li
+{
+    font-weight: bold;
+}
+
+h1 + p{
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover {
+    color: hotpink;
+}
+ul li:nth-child(3) {
+    background-color: coral;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+p::first-letter{font-size: 200px;
+color: darkgoldenrod;
+}
